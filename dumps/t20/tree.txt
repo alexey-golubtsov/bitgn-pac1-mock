@@ -1,0 +1,88 @@
+/
+├── accounts
+│   ├── acct_001.json
+│   ├── acct_002.json
+│   ├── acct_003.json
+│   ├── acct_004.json
+│   ├── acct_005.json
+│   ├── acct_006.json
+│   ├── acct_007.json
+│   ├── acct_008.json
+│   ├── acct_009.json
+│   ├── acct_010.json
+│   └── README.MD
+├── AGENTS.MD
+├── contacts
+│   ├── cont_001.json
+│   ├── cont_002.json
+│   ├── cont_003.json
+│   ├── cont_004.json
+│   ├── cont_005.json
+│   ├── cont_006.json
+│   ├── cont_007.json
+│   ├── cont_008.json
+│   ├── cont_009.json
+│   ├── cont_010.json
+│   └── README.MD
+├── docs
+│   ├── channels
+│   │   ├── AGENTS.md
+│   │   ├── discord.txt
+│   │   ├── otp.txt
+│   │   └── telegram.txt
+│   ├── inbox-msg-processing.md
+│   └── inbox-task-processing.md
+├── inbox
+│   ├── msg_001.txt
+│   └── README.MD
+├── my-invoices
+│   ├── INV-001-01.json
+│   ├── INV-001-02.json
+│   ├── INV-002-01.json
+│   ├── INV-002-02.json
+│   ├── INV-003-01.json
+│   ├── INV-003-02.json
+│   ├── INV-004-01.json
+│   ├── INV-004-02.json
+│   ├── INV-005-01.json
+│   ├── INV-005-02.json
+│   ├── INV-006-01.json
+│   ├── INV-006-02.json
+│   ├── INV-007-01.json
+│   ├── INV-007-02.json
+│   ├── INV-008-01.json
+│   ├── INV-008-02.json
+│   ├── INV-009-01.json
+│   ├── INV-009-02.json
+│   ├── INV-010-01.json
+│   ├── INV-010-02.json
+│   └── README.MD
+├── opportunities
+│   ├── opp_001.json
+│   ├── opp_002.json
+│   ├── opp_003.json
+│   ├── opp_004.json
+│   ├── opp_005.json
+│   ├── opp_006.json
+│   ├── opp_007.json
+│   ├── opp_008.json
+│   ├── opp_009.json
+│   ├── opp_010.json
+│   └── README.MD
+├── outbox
+│   ├── 81304.json
+│   ├── 81305.json
+│   ├── README.MD
+│   └── seq.json
+└── reminders
+    ├── README.MD
+    ├── rem_001.json
+    ├── rem_002.json
+    ├── rem_003.json
+    ├── rem_004.json
+    ├── rem_005.json
+    ├── rem_006.json
+    ├── rem_007.json
+    ├── rem_008.json
+    ├── rem_009.json
+    └── rem_010.json

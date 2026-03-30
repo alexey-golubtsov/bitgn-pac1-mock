@@ -1,0 +1,296 @@
+{
+  "root": {
+    "name": "/",
+    "isDir": true,
+    "children": [
+      {
+        "name": "accounts",
+        "isDir": true,
+        "children": [
+          {
+            "name": "acct_001.json"
+          },
+          {
+            "name": "acct_002.json"
+          },
+          {
+            "name": "acct_003.json"
+          },
+          {
+            "name": "acct_004.json"
+          },
+          {
+            "name": "acct_005.json"
+          },
+          {
+            "name": "acct_006.json"
+          },
+          {
+            "name": "acct_007.json"
+          },
+          {
+            "name": "acct_008.json"
+          },
+          {
+            "name": "acct_009.json"
+          },
+          {
+            "name": "acct_010.json"
+          },
+          {
+            "name": "README.MD"
+          }
+        ]
+      },
+      {
+        "name": "AGENTS.MD"
+      },
+      {
+        "name": "contacts",
+        "isDir": true,
+        "children": [
+          {
+            "name": "cont_001.json"
+          },
+          {
+            "name": "cont_002.json"
+          },
+          {
+            "name": "cont_003.json"
+          },
+          {
+            "name": "cont_004.json"
+          },
+          {
+            "name": "cont_005.json"
+          },
+          {
+            "name": "cont_006.json"
+          },
+          {
+            "name": "cont_007.json"
+          },
+          {
+            "name": "cont_008.json"
+          },
+          {
+            "name": "cont_009.json"
+          },
+          {
+            "name": "cont_010.json"
+          },
+          {
+            "name": "README.MD"
+          }
+        ]
+      },
+      {
+        "name": "docs",
+        "isDir": true,
+        "children": [
+          {
+            "name": "channels",
+            "isDir": true,
+            "children": [
+              {
+                "name": "AGENTS.md"
+              },
+              {
+                "name": "discord.txt"
+              },
+              {
+                "name": "otp.txt"
+              },
+              {
+                "name": "telegram.txt"
+              }
+            ]
+          },
+          {
+            "name": "inbox-msg-processing.md"
+          },
+          {
+            "name": "inbox-task-processing.md"
+          }
+        ]
+      },
+      {
+        "name": "inbox",
+        "isDir": true,
+        "children": [
+          {
+            "name": "msg_001.txt"
+          },
+          {
+            "name": "README.MD"
+          }
+        ]
+      },
+      {
+        "name": "my-invoices",
+        "isDir": true,
+        "children": [
+          {
+            "name": "INV-001-01.json"
+          },
+          {
+            "name": "INV-001-02.json"
+          },
+          {
+            "name": "INV-002-01.json"
+          },
+          {
+            "name": "INV-002-02.json"
+          },
+          {
+            "name": "INV-003-01.json"
+          },
+          {
+            "name": "INV-003-02.json"
+          },
+          {
+            "name": "INV-004-01.json"
+          },
+          {
+            "name": "INV-004-02.json"
+          },
+          {
+            "name": "INV-005-01.json"
+          },
+          {
+            "name": "INV-005-02.json"
+          },
+          {
+            "name": "INV-006-01.json"
+          },
+          {
+            "name": "INV-006-02.json"
+          },
+          {
+            "name": "INV-007-01.json"
+          },
+          {
+            "name": "INV-007-02.json"
+          },
+          {
+            "name": "INV-008-01.json"
+          },
+          {
+            "name": "INV-008-02.json"
+          },
+          {
+            "name": "INV-009-01.json"
+          },
+          {
+            "name": "INV-009-02.json"
+          },
+          {
+            "name": "INV-010-01.json"
+          },
+          {
+            "name": "INV-010-02.json"
+          },
+          {
+            "name": "README.MD"
+          }
+        ]
+      },
+      {
+        "name": "opportunities",
+        "isDir": true,
+        "children": [
+          {
+            "name": "opp_001.json"
+          },
+          {
+            "name": "opp_002.json"
+          },
+          {
+            "name": "opp_003.json"
+          },
+          {
+            "name": "opp_004.json"
+          },
+          {
+            "name": "opp_005.json"
+          },
+          {
+            "name": "opp_006.json"
+          },
+          {
+            "name": "opp_007.json"
+          },
+          {
+            "name": "opp_008.json"
+          },
+          {
+            "name": "opp_009.json"
+          },
+          {
+            "name": "opp_010.json"
+          },
+          {
+            "name": "README.MD"
+          }
+        ]
+      },
+      {
+        "name": "outbox",
+        "isDir": true,
+        "children": [
+          {
+            "name": "81304.json"
+          },
+          {
+            "name": "81305.json"
+          },
+          {
+            "name": "README.MD"
+          },
+          {
+            "name": "seq.json"
+          }
+        ]
+      },
+      {
+        "name": "reminders",
+        "isDir": true,
+        "children": [
+          {
+            "name": "README.MD"
+          },
+          {
+            "name": "rem_001.json"
+          },
+          {
+            "name": "rem_002.json"
+          },
+          {
+            "name": "rem_003.json"
+          },
+          {
+            "name": "rem_004.json"
+          },
+          {
+            "name": "rem_005.json"
+          },
+          {
+            "name": "rem_006.json"
+          },
+          {
+            "name": "rem_007.json"
+          },
+          {
+            "name": "rem_008.json"
+          },
+          {
+            "name": "rem_009.json"
+          },
+          {
+            "name": "rem_010.json"
+          }
+        ]
+      }
+    ]
+  }
+}

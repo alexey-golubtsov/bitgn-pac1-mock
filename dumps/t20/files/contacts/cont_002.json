@@ -1,0 +1,9 @@
+{
+  "id": "cont_002",
+  "account_id": "acct_002",
+  "full_name": "Clara Braun",
+  "role": "Head of Engineering",
+  "email": "clara.braun@acme-robotics.example.com",
+  "preferred_tone": "formal",
+  "last_seen_on": "2026-07-11"
+}
