@@ -1,6 +1,6 @@
 # bitgn-pac1-mock
 
-Mock harness for the [BitGN Challenge](https://bitgn.com) — run your agent against local task dumps, create custom tasks, and iterate on prompts without API costs.
+Mock harness for the [BitGN Challenge](https://bitgn.com) — create your own tasks with custom traps so you don't overfit to the organizer's test set.
 
 ## Why this exists
 
@@ -45,7 +45,7 @@ uv run python dump_task.py t03 t19 t24 t25
 uv run python main_mock.py t20
 ```
 
-The agent runs against a local copy of the filesystem instead of the real API. No BitGN calls, only LLM costs.
+The agent runs against a local copy of the filesystem instead of the real API.
 
 Multiple tasks:
 
