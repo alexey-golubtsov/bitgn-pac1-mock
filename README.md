@@ -55,9 +55,9 @@ uv run python main_mock.py t20 t19 t25
 
 ## Scoring and review
 
-The real value of the mock is not a pass/fail number — it's watching how the agent reasons through traps you've designed. The full step-by-step log shows every tool call, every decision, and where exactly the agent went wrong (or right).
+The organizers have their own scoring logic — exact format checks, specific file diffs, particular outcome codes. We don't try to replicate that. Since you designed the traps yourself, you know what the right answer should be *in substance*. Review the agent's output manually or use LLM-as-a-judge to check whether it got the point — not whether it matched a specific string.
 
-That said, basic automated scoring is supported via `expected.json` in the task folder:
+That said, basic automated scoring is supported via `expected.json` in the task folder for quick smoke tests:
 
 ```json
 {
@@ -69,7 +69,7 @@ That said, basic automated scoring is supported via `expected.json` in the task 
 }
 ```
 
-All fields are optional. Glob-style `folder/*` patterns are supported for forbidden ops. But it's not always possible (or useful) to define exact expected results — many tasks have multiple valid paths. The automated score is a rough signal; reading the agent's reasoning trace is what actually tells you whether your prompt improvements are working.
+All fields are optional. Glob-style `folder/*` patterns are supported for forbidden ops. This catches obvious failures automatically, but the real check is whether the agent's reasoning was sound — and that's something you judge yourself, knowing what traps you set.
 
 ## Create a custom task
 
