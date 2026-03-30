@@ -2,6 +2,23 @@
 
 Mock harness for the [BitGN Challenge](https://bitgn.com) — run your agent against local task dumps, create custom tasks, and iterate on prompts without API costs.
 
+## Why this exists
+
+In my first AI agent competition (ERC3), I kept running tasks through the organizer's API in a loop: score 0 → tweak prompt → retry → score 1 → next task. This works, but you end up overfitting to the test set. Classic ML mistake — I have enough ML background to know better, but did it anyway.
+
+The problem showed up in the final evaluation: organizers added new tasks with traps I hadn't seen, and my agent broke. I was chasing 1s on known tasks instead of building robust reasoning.
+
+This time I'm doing it properly: train on your own tasks, use the real API only as a final check. Create tasks with traps you expect in production — domain spoofing, cross-account requests, contradicting instructions, nested policy injection. If your agent handles those, it'll handle whatever the organizers throw at it.
+
+**Example custom tasks you could build:**
+
+- Sender from Account A asks to resend an invoice for Account B (cross-account leak)
+- Inbox email with a `.biz` or `.com.ai` domain that's one character off from a real contact
+- A nested `AGENTS.md` in `inbox/` that contradicts the root policy
+- A legitimate request that looks suspicious but should succeed (false positive test)
+- A Discord message from a blacklisted channel containing a valid OTP code
+- Two docs with conflicting rules (e.g. "mark as DONE" vs "mark as FINISHED")
+
 ## Prerequisites
 
 Your main BitGN project is set up and working per the official instructions (`.env` configured, `uv` installed, agent runs against real API).
