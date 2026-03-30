@@ -1,6 +1,6 @@
 # bitgn-pac1-mock
 
-Mock harness for the [BitGN PAC1 Challenge](https://bitgn.com) — run your agent against local task dumps, create custom tasks, and iterate on prompts without API costs.
+Mock harness for the [BitGN Challenge](https://bitgn.com) — run your agent against local task dumps, create custom tasks, and iterate on prompts without API costs.
 
 ## Prerequisites
 
